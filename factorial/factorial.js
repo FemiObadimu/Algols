@@ -1,4 +1,4 @@
-export default function factorial(number) {
+function factorial(number) {
   let final = 1;
   for (let index = 2; index <= number; index++) {
     final = final * index;
@@ -7,4 +7,4 @@ export default function factorial(number) {
   return final;
 }
 
-factorial(5);
+console.log(factorial(0));
